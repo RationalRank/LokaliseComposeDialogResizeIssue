@@ -3,7 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
-// 1.1.0-alpha04 doesn't have dialog resizing issue
+// 1.1.0-alpha04 doesn't have dialog resizing issue; 1.1.0-alpha04 requires kt version 1.5.30
 def compose_version = "1.1.0-alpha05"
 
 android {

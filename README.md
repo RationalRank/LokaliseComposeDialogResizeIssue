@@ -21,3 +21,8 @@ Upon debugging, we found the following:
 3. Redirect back to portrait `Activity` . Now, try to show a `Dialog`. This dialog will appear stretched
 
 The dialog's `Context` still has the  `orientation` landscape in it's `Resource` . This can be fixed by recreating the activity or further navigating back and coming back to the portrait screen again.
+
+| Screenshots                                                       | Affected version |
+| ----------------------------------------------------------------- | ---------------- |
+| <img title="" src="Screenshot_with_issue.png" alt="" width="179"> |                  |
+| <img src="Screenshot_without_issue.png" title="" alt="" width="181"> |                  |
