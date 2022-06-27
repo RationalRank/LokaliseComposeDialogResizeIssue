@@ -22,7 +22,7 @@ Upon debugging, we found the following:
 
 The dialog's `Context` still has the  `orientation` landscape in it's `Resource` . This can be fixed by recreating the activity or further navigating back and coming back to the portrait screen again.
 
-| Screenshots                                                       | Affected version |
-| ----------------------------------------------------------------- | ---------------- |
-| <img title="" src="Screenshot_with_issue.png" alt="" width="179"> |                  |
-| <img src="Screenshot_without_issue.png" title="" alt="" width="181"> |                  |
+| Screenshots                                                          | Affected version                                                                                 |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| <img title="" src="Screenshot_with_issue.png" alt="" width="179">    | Lokalise version - `2.1.0` <br/>Compose version - `1.1.0-alpha05` <br/>Kotlin version - `1.5.31` |
+| <img src="Screenshot_without_issue.png" title="" alt="" width="181"> | Lokalise version - `2.1.0` <br/>Compose version - `1.1.0-alpha04` <br/>Kotlin version - `1.5.30` |
